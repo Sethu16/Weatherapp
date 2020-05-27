@@ -1,0 +1,25 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sethu16/Weatherapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sethu16/Weatherapp/issues"
+  },
+  "homepage": "https://github.com/Sethu16/Weatherapp#readme"
+}

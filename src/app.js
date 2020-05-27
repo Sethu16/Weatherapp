@@ -9,6 +9,7 @@ var request = require('request')
 var publicdirectory = path.join(__dirname,'../public')
 var viewpath = path.join(__dirname,'../templates/views')
 var partialpath = path.join(__dirname,'../templates/partials')
+var port=process.env.PORT || 3000
 
 app.set('view engine','hbs')
 app.set('views',viewpath)
@@ -62,6 +63,6 @@ app.get('/',(req,res)=>{
    
 
 
-app.listen(3000,'127.0.0.1',()=>{
-    console.log('listening')
+app.listen(port,'127.0.0.1',()=>{
+    console.log('listening'+port)
 })                                                                                                              
